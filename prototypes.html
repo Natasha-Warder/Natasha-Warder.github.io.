@@ -1,0 +1,114 @@
+<html>
+   <head> 
+       <link rel="stylesheet" type="text/css" href="prototypes.css">
+       
+    </head>
+    <title> Dress Up Game</title>
+
+
+<body>
+
+
+    <nav>
+	
+			
+        <img class="logo" style="float:left" src="logo1.png">
+    
+
+        <li class="dropdown" style="float:right">
+            <a class="dropbtn">Background</a>
+            <div class="dropdown-content">
+                <ul>
+             <a href="initial_ideas.html">Initial Ideas</a>
+            <a href="audience.html">Audience</a>
+            <a href="narrative.html">Narrative</a>
+</ul>
+
+              <li class="dropdown" style="float:right">
+                <a class="dropbtn">Development</a>
+                <div class="dropdown-content">
+                    <ul>
+                 <a href="infographics.html">Infographics</a>
+                 <a href="prototypes.html">Prototypes</a>
+                <a href="moodboard.html">Moodboard</a>
+</ul>
+
+
+
+<li class="dropdown" style="float:right">
+    <a class="dropbtn">Multimedia</a>
+    <div class="dropdown-content">
+        <ul>
+     <a href="images.html">Images</a>
+    <a href="audio.html">Audio</a>
+    <a href="video.html">Video</a>
+</ul>
+        
+
+</nav>
+</div>
+
+<div class="row">
+<div class="header">
+	<h1>Virtual Collections Prototype</h1>
+    
+  </div>
+
+  <div class="textbox">
+
+    <p>By using Dress X designs, this prototype exemplifies the basic function of the dress up game for the final site. Creating the prototype involved structuring appropriate files to operate using JavaScript. The final version will include recognisable brand collections for the metaverse and text pop-ups upon item selection (informing users about sustainable attributes).</p>
+    <br>
+    <p>Step 1: creating html deciding on prototype components: background, base image (dressing stage), avatar, dress, and shoes. </p>
+  <p>Step 2: CSS formatting and overlaying images: Images were screenshotted, removed of background, scaled to size of the avatar, modified using dimensions tool.</p>
+    <p>Step 3: JavaScript file created to allow users to project different items onto avatar by clicking the next button. </p>
+
+    <br>
+
+    <p>Provided below are: (left) the working prototype, (right) resources: notes - dimensions of layered images &  Key resource, GitHub profile 'Adreejish' <a href="https://github.com/adreejish/Dress-up-game">github.com</a> </p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="column">
+
+        <img src="notes.png" id="img" >
+
+<br>
+
+        <img src="github.png" id="img" >
+
+</div>
+
+    <div id="container">
+    <div id="background">   
+    <div id="man"> </div>
+    <div id="shoes"> </div>    
+    <div id="clothes"> </div>
+    </div>
+        
+        
+        
+
+        <input type="button" value="NEXT" id="nextdress" onclick="nextdress()">
+        <input type="button" value="NEXT" id="nextshoe" onclick="nextshoe()">
+    
+    </div>
+  
+
+
+
+    </div>
+</div>
+
+
+
+
+</div>
+    
+    <script src="code.js"></script>
+
+
+</body>
+
+</html>
