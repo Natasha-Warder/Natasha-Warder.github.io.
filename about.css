@@ -1,0 +1,226 @@
+                                
+								.logo {
+									display: inline-block;
+									vertical-align: top;
+									width: 200px;
+									height: 60px;
+									margin-top: 0px;    /* vertically middle of the navbar */
+								}
+
+								.dropbtn {
+									background-color: #E8C6AE;
+									color: rgb(0, 0, 0);
+									padding: 16px;
+									font-size: 16px;
+									border: none;
+									cursor: pointer;
+									font-weight: lighter;
+									font-size: 20px; 
+									font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+								  }
+								  
+								  .dropdown {
+									position: relative;
+									display: inline-block;
+									float: right;
+									padding-right: 100px;
+									padding-top: 20px;
+								  }
+								  
+								  .dropdown-content {
+									display: none;
+									position: absolute;
+									background-color: #E8C6AE;
+									min-width: 160px;
+									z-index: 1;
+                  font-size: 16px;
+									border: none;
+									cursor: pointer;
+									font-weight: lighter;
+									font-size: 20px; 
+									font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+								  }
+								  
+								  .dropdown-content a {
+									color: rgb(255, 255, 255);
+									padding: 12px 16px;
+									text-decoration: none;
+									display: block;
+                  font-size: 16px;
+									border: none;
+									cursor: pointer;
+									font-weight: lighter;
+									font-size: 20px; 
+									font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+								  }
+								  
+								  .dropdown-content a:hover {
+									background-color: #ffffff;
+									color:rgb(0, 0, 0);
+								  }
+								  
+								  .dropdown:hover .dropdown-content {
+									display: block;
+								  }
+								  
+								  .dropdown:hover .dropbtn {
+									background-color: #e6a481;
+									color:#000000;
+								  }
+
+
+
+  /*header*/
+
+  .header {
+
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size:xx-large;
+    color:#ffffff;
+    font-weight: bolder;
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 60px;
+    margin-top: 0px;    /* vertically middle of the navbar */
+}
+
+  /* Header/Blog Title */
+  .header {
+    padding: 100px;
+    text-align: center;
+    }
+    
+    .header h1 {
+    font-size: 85px;
+    text-align: center;
+    color: #ffffff;
+  position: absolute,fixed;
+    }
+
+.textbox {
+
+  text-align: center;
+  font-size: 25px;
+  color:#ffffff;
+  font-weight: lighter;
+  font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+float: center;
+padding-bottom: 20px;
+
+
+}
+
+.body {
+
+	text-align: center;
+	font-size: 25px;
+	color:#ffffff;
+	font-weight: lighter;
+	font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  float: center;
+  padding-bottom: 20px;
+  
+  
+}
+
+.gallery-container {
+	display: flex;
+	justify-content: center;
+
+  }
+  
+  .thumbnails {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+  }
+  
+  .thumbnails img {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+  }
+  
+  .scrollbar {
+	width: 1px;
+	height: 720px;
+	background: #ccc;
+	display: block;
+	margin: 0 0 0 8px;
+  }
+  
+  .thumb {
+	width: 1px;
+	position: absolute;
+	height: 0;
+	background: #000;
+  }
+  
+  .slides {
+	margin: 0 16px;
+	display: grid;
+	grid-auto-flow: row;
+	gap: 1rem;
+	width: 1080px;
+	padding: 0 0.25rem;
+	height: 520px;
+	overflow-y: auto;
+	overscroll-behavior-y: contain;
+	scroll-snap-type: y mandatory;
+	scrollbar-width: none;
+  }
+  
+
+  .slides > div {
+	scroll-snap-align: start;
+  }
+  
+  .slides img {
+	width: 540px;
+	object-fit: contain;
+  }
+  
+  .slides::-webkit-scrollbar {
+	display: none;
+  }
+
+
+
+
+
+
+  /* Footer */
+  .footer {
+	padding: 20px;
+	text-align: center;
+	position: bottom;
+	background: #E8C6AE;
+	margin-top: 20px;
+  }
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+

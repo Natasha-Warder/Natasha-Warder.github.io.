@@ -1,0 +1,397 @@
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  height: 60px;
+  margin-top: 0px;    /* vertically middle of the navbar */
+}
+
+.dropbtn {
+  background-color: #32623C;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 20px; 
+  font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  padding-right: 100px;
+  padding-top: 20px;
+  }
+  
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #32623C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 20px; 
+  font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 20px; 
+  font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .dropdown-content a:hover {
+  background-color: #E8C6AE;
+  color:black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+  background-color: #e6a481;
+  color:#000000;
+  }
+
+
+
+
+
+  /*header*/
+
+  .header {
+
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size:xx-large;
+    color:#ffffff;
+    font-weight: bolder;
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 60px;
+    margin-top: 0px;    /* vertically middle of the navbar */
+}
+
+  /* Header/Blog Title */
+  .header {
+    padding: 100px;
+    text-align: center;
+    }
+    
+    .header h1 {
+    font-size: 85px;
+    text-align: center;
+    color: #ffffff;
+  position: absolute,fixed;
+    }
+
+.textbox {
+
+  text-align: center;
+  font-size: 25px;
+  color:#ffffff;
+  font-weight: lighter;
+  font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+float: center;
+padding: 30px;
+
+
+}
+
+
+  
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+	float: left;
+	width: 50%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+	float: right;
+	width: 40%;
+	padding-left: 20px;
+
+  }
+
+
+
+  
+  /* Clear floats after the columns */
+  .row :after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+	padding: 20px;
+	text-align: center;
+	position: bottom;
+	background: #E8C6AE;
+	margin-top: 20px;
+  }
+
+
+
+
+
+
+
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+#container{
+    position: absolute;
+    margin:auto;
+    width: 755px;
+    height :987px;
+   text-align: left;
+}
+
+
+
+ #background{
+    position:absolute;
+    width:755px;
+    height:987px;
+    right: 50px;
+    background-color: rgb(21, 36, 21);
+    border-color: rgb(0, 0, 0);
+    border-radius: 3cm;
+    border-style: dotted;
+}
+
+
+    
+
+#man{
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url("https://raw.githubusercontent.com/Natasha-Warder/MADB-Project/main/dressupgame/manfinal.png")
+}
+
+
+#clothes{
+    
+     position:absolute;
+    width:555px;
+    height:987px;
+    
+}
+
+.dress1{
+    
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url("https://raw.githubusercontent.com/Natasha-Warder/Natasha-Warder.github.io./main/dressa.png");
+}
+
+.dress2{
+    
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url("https://raw.githubusercontent.com/Natasha-Warder/MADB-Project/main/dressupgame/dress2.png");
+}
+
+.dress3{
+    
+    position:absolute;
+    width:555px;
+    height:987px;
+    background-image: url("https://raw.githubusercontent.com/Natasha-Warder/MADB-Project/main/dressupgame/dress3.png");
+}
+
+#shoes{
+  position:absolute;
+ width:555px;
+ height:987px;
+ 
+}
+
+.shoe1{
+  position:absolute;
+ width:555px;
+ height:987px;
+ background-image: url("https://raw.githubusercontent.com/Natasha-Warder/MADB-Project/main/dressupgame/shoe1.png");
+
+ 
+}
+
+.shoe2{
+ position:absolute;
+ width:555px;
+ height:987px;
+ background-image: url("https://raw.githubusercontent.com/Natasha-Warder/MADB-Project/main/dressupgame/shoe2.png");
+ 
+}
+
+.shoe3{
+ position:absolute;
+ width:555px;
+ height:987px;
+ background-image: url("https://raw.githubusercontent.com/Natasha-Warder/MADB-Project/main/dressupgame/shoe3.png");
+}
+
+
+
+
+#nextdress{
+    position:absolute;
+    right:50px;
+    top:400px;
+display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #000000;
+background-color: #83BA8D;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #013c06;
+}
+
+
+
+#nextshoe{
+    position:absolute;
+    right:50px;
+    top:750px;
+    display: inline-block;
+padding: 15px 25px;
+font-size: 24px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #000000;
+background-color: #83BA8D;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #013c06;
+}
+
+
+#prevdress{
+    position:absolute;
+    left:50px;
+    top:400px;
+}
+
+#prevshoe{
+    position:absolute;
+    left:50px;
+    top:750px;
+}
+
+
